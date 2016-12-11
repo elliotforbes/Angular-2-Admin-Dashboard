@@ -1,0 +1,23 @@
+body {
+  background-color: #F5F5F5;
+}
+
+nav {
+  background-color: #373C47;
+  font-weight: 200;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+  margin-bottom: 20px;
+  .brand-logo {
+    background-color: #039BE5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.component {
+  background-color: white;
+  padding: 20px;
+}

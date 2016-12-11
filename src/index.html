@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Angular2 Dashboard</title>
+    <base href="/">
+    <meta charset="UTF-8">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="app/assets/css/style.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <!-- IE required polyfills, in this exact order -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/typescript/lib/typescript.js"></script>
+    <script src="system.config.js"></script>
+    <script>
+      System
+        .import('./app/main.ts')
+        .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <body>
+    <my-app>loading...</my-app>
+  </body>
+</html>
